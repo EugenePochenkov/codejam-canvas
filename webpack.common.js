@@ -1,5 +1,3 @@
-const CopyPlugin = require('copy-webpack-plugin');
-
 module.exports = {
   entry: {
     main: './src/index.js',
@@ -28,12 +26,4 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CopyPlugin([
-      {
-        from: './src/assets/data',
-        to: './assets/data',
-      },
-    ]),
-  ],
 };
