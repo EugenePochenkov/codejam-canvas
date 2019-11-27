@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 852px;
+  padding-top: 73px;
+  padding-right: 155px;
+  padding-left: 29px;
+}
+
+.main__toolbar {
+  margin-bottom: 92px;
+}
+
+.main__canvas-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main__toolbar-canvas {
+  width: 150px;
+  margin-left: 40px;
+  padding-bottom: 0;
+
+  li {
+    &:nth-child(2) {
+      min-height: 48px;
+      padding-bottom: 0;
+
+      border-bottom: none;
+    }
+
+    &:nth-child(3) {
+      min-height: 48px;
+      padding-top: 0;
+    }
+  }
+}
